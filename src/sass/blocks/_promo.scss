@@ -2,15 +2,42 @@
     min-height: 700px;
     background: url('../img/promo-bg.jpg') no-repeat 50%/cover;
     // background: url('../../img/promo-bg.jpg') center center / cover no-repeat;
+    &__btn {
+        margin-top: 40px;
+        @include button;
+    }
+    &__phone {
+        position: absolute;
+        top: 131px;
+        right: 15px;
+    }
 }
 .header {
-    padding-top: 60px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     &__logo {
         max-height: 65px;
     }
     &__nav {
-        
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        margin-bottom: 0;
+    }
+    &__item {
+        padding-right: 45px;
+    }
+    &__link {
+        font-size: 13px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 2;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: color .2s linear;
+        &:hover {
+            color: $hover-color;
+        }
     }
 }
