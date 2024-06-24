@@ -3,6 +3,7 @@
     background: url('../img/promo-bg.jpg') no-repeat 50%/cover;
     // background: url('../../img/promo-bg.jpg') center center / cover no-repeat;
     &__btn {
+        display: block;
         margin-top: 40px;
         @include button;
     }

@@ -1,0 +1,95 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .countries__name {
+        font-size: 13px;
+    }
+    .countries__addr, .countries__email, .countries__tel {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .countries__items {
+        padding-right: 10px;
+    }
+    .title {
+        width: 250px;
+    }
+    .subtitle {
+        width: 250px;
+        font-size: 20px;
+    }
+    .header__link {
+        font-size: 11px;
+    }
+    .promo__phone {
+        right: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .countries__wrapper {
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+    .countries__items {
+        margin-top: 10px;
+        width: 50%;
+        padding: 0;
+    }
+    .title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .subtitle {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .header__item {
+        padding-right: 20px;
+    }
+    .header__link {
+        font-size: 9px;
+    }
+    .promo__btn {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .promo__phone {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .countries__wrapper {
+        margin-left: 0;
+    }
+    .countries__items {
+        width: 100%;
+        justify-content: center;
+    }
+    .countries__info {
+        width: 150px;
+    }
+    .header__logo {
+        padding-left: 20px;
+    }
+    .header__nav {
+        display: none;
+    }
+    
+}
