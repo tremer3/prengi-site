@@ -1,0 +1,16 @@
+.promo {
+    min-height: 700px;
+    background: url('../img/promo-bg.jpg') no-repeat 50%/cover;
+    // background: url('../../img/promo-bg.jpg') center center / cover no-repeat;
+}
+.header {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        max-height: 65px;
+    }
+    &__nav {
+        
+    }
+}
