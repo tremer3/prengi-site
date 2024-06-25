@@ -1,0 +1,39 @@
+.benefits {
+    min-height: 900px;
+    &__wrapper {
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        gap: 30px;
+        &_pt30 {
+            padding-top: 30px;
+        }
+    }
+    &__item {
+        width: 360px;
+        height: 255px;
+        padding-top: 30px;
+        border: 1px #ececec solid;
+        border-radius: 5px;
+        display: grid;
+        justify-items: center; 
+    }
+    &__img {
+        max-width: 119px;
+        max-height: 120px;
+    }
+    &__question {
+        font-size: 18px;
+        font-weight: 300;
+        color: #393939;
+        line-height: 1.44;
+        text-align: center;
+    }
+    &__answer {
+        font-size: 18px;
+        color: #393939;
+        line-height: 1.44;
+        font-weight: 900;
+        text-align: center;
+    }
+}

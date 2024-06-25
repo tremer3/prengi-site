@@ -1,11 +1,50 @@
 .title {
-    padding-top: 130px;
-    width: 610px;
-    font-size: 42px;
-    color: #fff;
+    padding-top: 80px;
+    font-size: 30px;
     font-weight: 900;
-    line-height: 1.14;
-    text-align: left;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    &_promo {
+        padding-top: 130px;
+        width: 610px;
+        font-size: 42px;
+        color: #fff;
+        text-align: left;
+        line-height: 1.14;
+    }
+    &_prengi {
+        position: relative;
+        padding-top: 150px;
+        font-size: 42px;
+        text-align: center;
+        color: #393939;
+        line-height: 1.14;
+        text-transform: uppercase;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+			transform: translateX(-50%) rotate(45deg);;
+            width: 85px;
+            height: 85px;
+            border-bottom: 3px #efefef solid;
+            border-right: 3px #efefef solid;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 90px;
+            left: 50%;
+			transform: translateX(-50%) rotate(45deg);;
+            width: 95px;
+            height: 95px;
+            border-bottom: 3px #efefef solid;
+            border-right: 3px #efefef solid;
+        }
+
+    }
 }
 .subtitle {
     padding-top: 15px;
