@@ -7,6 +7,10 @@
     line-height: 1.2;
     color: #fff;
     text-align: center;
+    &_black {
+        max-width: 400px;
+        color: #393939;
+    }
     &_promo {
         padding-top: 130px;
         max-width: 610px;
