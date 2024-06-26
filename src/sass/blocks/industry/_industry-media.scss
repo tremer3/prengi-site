@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .industry__wrapper {
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    .industry__text {
+        min-width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .industry__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .industry__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
