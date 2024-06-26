@@ -1,0 +1,45 @@
+.start-work {
+    min-height: 690px;
+    &__img {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 300px;
+        border: 1px $hover-color solid;
+        border-radius: 5px;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 40px;
+            right: 40px;
+            top: -3px;
+            height: 102%;
+            border: 3px solid #fff;
+            z-index: 10;
+           }
+        &:after {
+            content: "";
+            left: -3px;
+            top: 40px;
+            bottom: 40px;
+            width: 102%;
+            position: absolute;
+            border: 3px solid #fff;
+            z-index: 10;
+        }
+        img {
+            width: 119px;
+            height: 123px;
+            object-fit: cover;
+        }
+    }
+    &__btn {
+        display: block;
+        margin: 40px auto 0 auto;
+        @include button;
+    }
+}

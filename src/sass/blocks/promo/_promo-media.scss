@@ -94,5 +94,10 @@
     .header__nav {
         display: none;
     }
-    
+    .title {
+        font-size: 24px;
+        &_promo {
+            padding-top: 70px;
+        }
+    }
 }
