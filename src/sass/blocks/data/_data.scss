@@ -1,0 +1,52 @@
+.data {
+    min-height: 580px;
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(1, minmax(100px, 580px)) / repeat(2, minmax(100px, 960px));
+        grid-auto-rows: 580px;
+    }
+    &__cloud {
+        position: relative;
+    }
+    &__server {
+        position: relative;
+    }
+    &__title {
+        position: absolute;
+        top: 44%;
+        font-size: 30px;
+        font-weight: 900;
+        color: #fff;
+        line-height: 0.7;
+        text-transform: uppercase;
+        &_cloud {
+            right: 80px;
+        }
+        &_server {
+            left: 80px;
+        }
+    }
+    &__descr {
+        position: absolute;
+        max-width: 500px;
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+        line-height: 1.44;
+        top: 50%;
+        &_cloud {
+            right: 80px;
+            text-align: right;
+        }
+        &_server {
+            left: 80px;
+            text-align-last: left;
+        }
+    }
+    &__cloud {
+        background: url('../img/data-bg1.jpg') no-repeat 50%/cover;
+    }
+    &__server {
+        background: url('../img/data-bg2.jpg') no-repeat 50%/cover;
+    }
+}

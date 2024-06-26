@@ -1,4 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import 'libs/animate';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 @import 'base/variables';
@@ -22,9 +24,11 @@
 @import 'blocks/benefits/benefits';
 @import 'blocks/solutions/solutions';
 @import 'blocks/industry/industry';
+@import 'blocks/data/data';
 
 
 @import 'blocks/promo/promo-media';
 @import 'blocks/benefits/benefits-media';
 @import 'blocks/solutions/media-solutins';
 @import 'blocks/industry/industry-media';
+@import 'blocks/data/data-media';

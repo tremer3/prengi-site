@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+    .data__title {
+        font-size: 25px;
+        &_cloud {
+            right: 40px;
+        }
+        &_server {
+            left: 40px;
+        }
+    }
+    .data__descr {
+        &_cloud {
+            right: 40px;
+        }
+        &_server {
+            left: 40px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .data__wrapper {
+        grid-template-columns: repeat(1, minmax(100px, 960px));
+    }
+}
+
+@media (max-width: 576px) {
+    .data__descr {
+        min-width: 300px;
+        &_cloud {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &_server {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    .data__title {
+        font-size: 20px;
+    }
+}

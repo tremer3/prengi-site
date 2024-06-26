@@ -50,7 +50,14 @@
             border-bottom: 3px #efefef solid;
             border-right: 3px #efefef solid;
         }
-
+    }
+    &_data {
+        position: absolute;
+        max-width: 380px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #fff;
+        z-index: 3;
     }
 }
 .subtitle {
