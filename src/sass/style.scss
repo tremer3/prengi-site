@@ -4,7 +4,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 
-* {
+*, ul {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
@@ -20,7 +20,9 @@
 @import 'blocks/countries';
 @import 'blocks/promo/promo';
 @import 'blocks/benefits/benefits';
+@import 'blocks/solutions/solutions';
 
 
 @import 'blocks/promo/promo-media';
 @import 'blocks/benefits/benefits-media';
+@import 'blocks/solutions/media-solutins';

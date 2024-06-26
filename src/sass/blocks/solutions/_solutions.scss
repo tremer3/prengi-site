@@ -1,0 +1,44 @@
+.solutions {
+    min-height: 890px;
+    background: url('../img/solutions-bg.jpg') no-repeat 50%/cover;
+    &__tabs {
+        padding: 20px 0;
+        max-width: 840px;
+        min-height: 62px;
+        margin: 0 auto;
+        border: 1px #fff solid;
+        border-radius: 5px;
+        display: grid;
+        grid-template-columns: repeat(6, minmax(auto, auto));
+        // grid-template-columns: repeat(3, 1fr);
+        // grid-template-rows: repeat(6,  minmax(100px, auto));
+        margin-top: 30px;
+        align-content: center;
+    }
+    &__tab {
+        position: relative;
+        font-size: 14px;
+        line-height: 1.85;
+        color: #fff;
+        font-weight: 400;
+        list-style-type: none;
+        text-align: center;
+        cursor: pointer;
+        transition: color .2s linear;
+        &:hover {
+            color: $hover-color;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            display: block;
+            top: -12px;
+            right: 0;
+            height: 49px;
+            border: 1px #8e908d solid;
+        }
+        &:last-child:before {
+            display: none;
+        }
+    }
+}

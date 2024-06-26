@@ -1,5 +1,7 @@
 .title {
     padding-top: 80px;
+    max-width: 650px;
+    margin: 0 auto;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.2;
@@ -7,7 +9,8 @@
     text-align: center;
     &_promo {
         padding-top: 130px;
-        width: 610px;
+        max-width: 610px;
+        margin: 0;
         font-size: 42px;
         color: #fff;
         text-align: left;
