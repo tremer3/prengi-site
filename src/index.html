@@ -7,8 +7,13 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="countries">
+    <div class="countries" id="countries">
         <div class="container">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <div class="countries__wrapper">
                 <div class="countries__items">
                     <img src="icons/ukraine.png" alt="" class="countries__icon">
@@ -60,16 +65,16 @@
 
     <section class="promo">
         <div class="container">
-            <div class="header">
+            <header class="header">
                 <a class="header__logo" href="#" class="logo__link"><img src="icons/logo.png" alt="logo"></a>
                     <ul class="header__nav">
-                        <li class="header__item"><a href="#" class="header__link">главная</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Модули</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Отрасли</a></li>
-                        <li class="header__item"><a href="#" class="header__link">О нас</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Наши обязательства</a></li>
+                        <li class="header__item"><a href="#countries" class="header__link">главная</a></li>
+                        <li class="header__item"><a href="#benefits" class="header__link">Модули</a></li>
+                        <li class="header__item"><a href="#solutions" class="header__link">Отрасли</a></li>
+                        <li class="header__item"><a href="#industry" class="header__link">О нас</a></li>
+                        <li class="header__item"><a href="#data" class="header__link">Наши обязательства</a></li>
                     </ul>
-            </div>
+            </header>
             <h1 class="title title_promo">Управляй своим бизнесом через Smartphone</h1>
             <h2 class="subtitle">PRENGI - Платформа для прозрачного управления бизнесом</h2>
             <button class="promo__btn">получить доступ</button>
@@ -79,7 +84,7 @@
         </div><!-- ./Container -->
     </section><!-- ./Promo -->
 
-    <section class="benefits">
+    <section class="benefits" id="benefits">
         <div class="container">
             <div class="benefits__wrapper">
                 <div class="benefits__item">
@@ -120,7 +125,7 @@
         </div><!-- ./Container -->
     </section>
 
-    <section class="solutions">
+    <section class="solutions" id="solutions">
         <div class="container">
             <h2 class="title">Prengi предоставляет экспертные решения для Вашей отрасли</h2>
 
@@ -141,7 +146,7 @@
         </div><!-- ./Container -->
     </section>
 
-    <section class="industry">
+    <section class="industry" id="industry">
         <div class="container">
             <h2 class="title title_black">Преимущества Prengi для Вашей отрасли</h2>
 
@@ -186,7 +191,7 @@
         </div><!-- ./Container -->
     </section>
 
-    <section class="data">
+    <section class="data" id="data">
         <div class="container">
             <h2 class="title title_data">Варианты развертывания Ваших данных</h2>
         </div>
