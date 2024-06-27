@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+.solutions {
+    min-height: 740px;
+    &__tabs {
+        margin: 30px 10px 0 10px;
+    }
+    &__item {
+        width: 300px;
+    }
+    }
+}
