@@ -60,6 +60,12 @@ $(document).ready(function() {
 
     new WOW().init();
 
+    $('ul.solutions__tabs').on('click', 'li:not(.solutions__tab_active)', function() {
+        $(this)
+          .addClass('solutions__tab_active').siblings().removeClass('solutions__tab_active')
+          .closest('div.container').find('div.solutions__content').removeClass('solutions__content_active').eq($(this).index()).addClass('solutions__content_active');
+      });
+
     $('.solutions__item').slick({
         speed: 1200,
         adaptiveHeight: true,
@@ -75,4 +81,5 @@ $(document).ready(function() {
               },
         ]
     });
+
 });

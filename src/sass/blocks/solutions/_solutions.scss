@@ -44,6 +44,15 @@
             display: none;
         }
     }
+    &__content {
+        visibility: hidden;
+        height: 0;
+        &_active {
+            display: block;
+            visibility: visible;
+            height: auto;
+        }
+    }
     &__item {
         position: relative;
         border-radius: 5px;
